@@ -1,0 +1,125 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-image: url("images/background.png");
+}
+button {
+  width:100px;
+  height:100px;
+  color: orange;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  background-image: url("images/pepebuttons.jpg");
+  background-position:center;
+  background-size:cover;
+  border: none;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: #0099FF;
+  background-color: orange;
+  background-image: none;
+}
+
+button:disabled {
+  background-image: url("images/scremepepe.jpg");
+  color: transparent;
+}
+
+#picBox {
+  width:300px;
+  height:500px;
+  background-color:#0099FF;
+  float:right;
+  margin-right: 50px;
+}
+
+#begin {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+  height: 200px;
+  width: 200px;
+  color: white;
+  background-color: red;
+  border-radius: 100px;
+  background-image: none;
+}
+#p1, #picBox {
+  display: none;
+}
+
+.holder {
+  height: 500px;
+  width: 275px;
+  position: absolute;
+  transform: translate(-15px, 5px);
+  z-index: 0;
+}
+
+.head {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  z-index: 20;
+  transform: translate(151px, 127px);
+  display: none;
+}
+
+.smile {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  z-index: 2;
+  transform: translate(166px, 142px);
+  display: none;
+}
+
+.back {
+  height: 150px;
+  width: 145px;
+  position: absolute;
+  z-index: 3;
+  transform: translate(128px, 195px) rotate(90deg);
+  display: none;
+}
+
+.line {
+  height: 80px;
+  width: 75px;
+  position: absolute;
+  z-index: 4;
+}
+
+.rArm {
+  transform: translate(135px, 206px) rotate(45deg);
+  display: none;
+}
+.lArm {
+  transform: translate(189px, 206px) rotate(315deg);
+  display: none;
+}
+.rLeg {
+  transform: translate(187px, 304px) rotate(225deg);
+  height: 100px;
+  display: none;
+}
+.lLeg {
+  transform: translate(137px, 304px) rotate(135deg);
+  height: 100px;
+  display: none;
+}
+#playAgain {
+  display: none;
+}
+.reload {
+  width: 200px;
+  height: 50px;
+  color: white;
+}
+#theDashes {
+  color: white;
+}
